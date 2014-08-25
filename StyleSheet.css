@@ -1,0 +1,56 @@
+﻿body
+{
+	font-family: "Trebuchet MS" ,Arial,sans-serif;
+}
+#Welcome
+{
+	background-color: #ED8029;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 9px 15px;
+	width: 370px;
+}
+#btnSend
+{
+	border: 50px none;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 0 0 5px #4A4240;
+	height: 50px;
+	width: 50px;
+	z-index: 1;
+}
+#btnSend:hover
+{
+	background-color: #444444;
+	color: #BBBBBB;
+}
+#mainItem
+{
+	background: none repeat scroll 0 0 #2A2A2A;
+	border: 10px solid #444444;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 1px 10px 0 #000000;
+	font-size: 18px;
+	height: 460px;
+	left: 50%;
+	margin-left: -220px;
+	margin-top: -230px;
+	opacity: 0.977;
+	padding: 0 20px;
+	position: absolute;
+	top: 50%;
+	width: 440px;
+	z-index: 100000;
+}
+input
+{
+	border: medium none;
+	border-radius: 10px;
+}
+textarea
+{
+	border: medium none;
+	border-radius: 5px 5px 5px 5px;
+}
